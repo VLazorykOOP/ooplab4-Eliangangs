@@ -1,4 +1,5 @@
 #include "MyAssoc.h"
+
 ostream& operator<<(ostream& os, MyTime& t) {
 	os << t.hour << ":";
 	if (t.minute <= 9) os << "0" << t.minute; else os << t.minute;

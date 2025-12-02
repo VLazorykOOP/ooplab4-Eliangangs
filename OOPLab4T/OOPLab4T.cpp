@@ -1,24 +1,13 @@
-﻿ // OOPLab4T.cpp : Цей файл містить є шаблоном для 
-// виконання лаб. роботи №4. 
-// Він містинь функцію "main" з якої починається та закінчується виконання програми.
-//
+﻿#include <iostream>
+#include "Lab4.h"
+using namespace std;
 
-
-#include <iostream>
-
-// Ваші файли загловки 
-//
-#include "Lab4Exmaple.h"
 int main()
 {
-    std::cout << " Lab #4  task chain  !\n";
-    //  Код виконання завдань
-    //  Головне меню завдань
-    //  Функції та класи можуть знаходитись в інших файлах проекту
+    cout << " Lab #4  task chain (14v) !\n";
 
     int chain = 1;
-    if (chain == 1) chain = mainExample1();
-    if (chain == 2) chain = mainExample2();
-    if (chain == 3) chain = mainExample3();
-
+    if (chain == 1) chain = main1();
+    if (chain == 2) chain = main2();
+    if (chain == 3) chain = main3();
 }

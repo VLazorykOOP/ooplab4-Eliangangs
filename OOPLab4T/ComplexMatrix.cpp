@@ -1,4 +1,5 @@
 #include "ComplexMatrix.h"
+
 const double EpsCalculations = 1.e-5;
 ComplexMatrix::ComplexMatrix(int ni, int mi, ComplexDouble b)
 {

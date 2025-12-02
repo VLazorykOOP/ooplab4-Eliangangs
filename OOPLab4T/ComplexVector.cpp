@@ -1,4 +1,5 @@
 #include "ComplexVector.h"
+
 ComplexDouble ComplexVector::badIndexRef=0;
 int ComplexVector::numVec =0;
 const double EpsCalculations = 1.e-5;
