@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include "VectorShort.h"
 #include "BankDirectory.h"
+#include "VectorInt.h"
 using namespace std;
 
 int main()
@@ -10,5 +11,5 @@ int main()
     int chain = 1;
     if (chain == 1) chain = main1();
     if (chain == 2) chain = main2();
-    // if (chain == 3) chain = main3();
+    if (chain == 3) chain = main3();
 }
